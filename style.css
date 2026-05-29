@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .card {
+    transition: all 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+  }
+  
+  .chart-container {
+    height: 400px;
+    margin-bottom: 30px;
+  }
+  
+  .mini-table {
+    font-size: 0.9rem;
+  }
+  
+  .hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+  }
+  
+  h5 {
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 8px;
+  }
